@@ -7,9 +7,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        'custom-pink': '#FF3E7D',
       },
     },
   },
